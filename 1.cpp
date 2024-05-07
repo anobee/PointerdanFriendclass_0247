@@ -6,4 +6,4 @@ class persegiPanjang
     public:
     int panjang, lebar;
     int luaspersegipanjang;
-}
+};
