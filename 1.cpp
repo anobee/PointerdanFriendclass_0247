@@ -11,7 +11,7 @@ class persegipanjang
     }
 };
 
-class segitiga()
+class segitiga
 {
     public :
         int tinggi,
@@ -27,3 +27,17 @@ class segitiga()
             return p.panjang;
         }
 };
+
+int main()
+{
+    persegipanjang pp;
+    segitiga sg;
+    cout << "masukan panjang :";
+    cin >> pp.panjang;
+    cout << "masukan lebar :";
+    cin >> pp.lebar;
+    cout << "masukan tinggi :";
+    cin >> sg.tinggi;
+    cout << "masukan alas :";
+    cin >> sg.alas;
+}
