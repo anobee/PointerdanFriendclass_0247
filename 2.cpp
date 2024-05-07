@@ -7,6 +7,11 @@ class mahasiswa {
 
     void shownim()
     {
-        
+        cout <<"nomor induk :" << nim << endl;
     }
+};
+
+int main (){
+    mahasiswa mhs{1};
+    
 }
