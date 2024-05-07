@@ -20,11 +20,11 @@ class siswa
     int id;
 
     public:
-        void setid(int pId);
+        void setid(int pid);
         void displayall (orang &a);
 };
 
-void siswa::displayall(orangtua &a)
+void siswa::displayall(orang &a)
 {
     cout << id << endl << a.nama;
 }
@@ -34,14 +34,14 @@ void orang::setnama (string pnama)
 }
 void siswa::setid(int pid)
 {
-    id = pId;
+    id = pid;
 }
 int main ()
 {
     orang joko;
     joko.setnama("joko WI");
     siswa joko_siswa;
-    joko_siswa setid(1)
-    joko_siswa.diplayall(joko);
+    joko_siswa; setid(1);
+    joko_siswa.displayall(joko);
     return 0;
 }
