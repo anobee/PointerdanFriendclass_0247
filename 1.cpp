@@ -19,9 +19,11 @@ class segitiga()
 
         int luassegitiga(int a, int t)
         {
-            return 0.5 *a *t
+            return 0.5 *a *t;
         }
 
         int hitung (persegipanjang p)
-        
-}
+        {
+            return p.panjang;
+        }
+};
