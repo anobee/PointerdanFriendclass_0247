@@ -11,4 +11,4 @@ class persegiPanjang
     }
 };
 
-class segitiga
+class segitiga().
